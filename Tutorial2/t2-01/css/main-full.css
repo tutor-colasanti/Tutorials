@@ -1,0 +1,70 @@
+body {
+    background-color: #E65100;
+    font-family: sans-serif;
+    height: 4000px;
+}
+
+h1 {
+    color: #006064;
+    background-color: grey;
+}
+
+.panel{
+    background-color: white;
+    width:200px;
+}
+
+.panel >h1{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.panel-set , .panel-30,.panel-100, .panel-70{
+    background-color: white;
+    color: lime;
+    border: none;
+    padding-left: 5px;
+    margin-bottom: :10px;
+}
+
+.panel-100{
+    width: 100%;
+    float: left;
+}
+.panel-30{
+    width: 30%;
+    float: left;
+}
+.panel-70{
+    width: 60%;
+    float: left;
+}
+
+.panel-set{
+    width:1700px
+}
+
+.nav{
+    top:0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: pink;
+}
